@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-04-13T10:41:15-00:00</lastmod>
+<lastmod>2017-04-13T11:03:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-04-13T10:41:15-00:00</lastmod>
+<lastmod>2017-04-13T11:03:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-04-13T10:41:15-00:00</lastmod>
+<lastmod>2017-04-13T11:03:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-04-13T10:41:15-00:00</lastmod>
+<lastmod>2017-04-13T11:03:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -39,35 +39,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./xie-tong-chan-pin-she-ji-shi-xi-di-liu-zhou-zuo-ye.html</loc>
+<loc>./di-liu-zhou-330.html</loc>
 <lastmod>2017-03-30T12:08:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./xie-tong-chan-pin-she-ji-shi-xi-di-wu-zhou-zuo-ye.html</loc>
+<loc>./di-wu-zhou-323.html</loc>
 <lastmod>2017-03-23T12:08:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./xie-tong-chan-pin-she-ji-shi-xi-di-si-zhou-zuo-ye.html</loc>
+<loc>./di-si-zhou-316.html</loc>
 <lastmod>2017-03-16T12:08:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./xie-tong-chan-pin-she-ji-shi-xi-di-san-zhou-zuo-ye.html</loc>
+<loc>./di-san-zhou-39.html</loc>
 <lastmod>2017-03-09T12:08:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./xie-tong-chan-pin-she-ji-shi-xi-di-er-zhou-zuo-ye.html</loc>
+<loc>./di-er-zhou-32.html</loc>
 <lastmod>2017-03-02T12:08:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -81,7 +81,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./di-yi-zhou.html</loc>
+<loc>./di-yi-zhou-223.html</loc>
 <lastmod>2017-02-25T12:08:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -102,15 +102,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/seat-table.html</loc>
-<lastmod>2017-03-30T12:08:00+08:06</lastmod>
+<loc>./tag/ppt.html</loc>
+<lastmod>2017-02-25T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/ppt.html</loc>
-<lastmod>2017-02-25T12:08:00+08:06</lastmod>
+<loc>./tag/seat-table.html</loc>
+<lastmod>2017-03-30T12:08:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
