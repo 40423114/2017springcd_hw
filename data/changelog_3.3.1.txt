@@ -1,0 +1,83 @@
+Changes in Brython version 3.3.1
+================================
+
+
+New features
+============
+- Javascript constructors (referenced by window.js_constructor) have an 
+  attribute "new", a function that returns instances created by the
+  constructor. This feature deprecates the JSConstructor function in
+  module javascript.
+  
+Implementation
+==============
+- major rewriting of functions implementation : 1. remove the "finally" block
+  (for performance reasons) and insert code to exit the function execution
+  frame 2. wrap function definition in an anonymous self-executing function, 
+  with an object holding function default values as argument
+- improve rendering of speed tests (in /speed/index.html)
+- rewrite the function that tests if an object is a DOM Node
+- improve repr() of dict.keys, dict.values, dict.items
+- generator "next" functions are no longer converted to an escaped string
+- method remove() of DOMNode instance becomes the same as method of same name 
+  on DOM elements : elt.remove() removes the element
+
+Bug fixes
+=========
+- bug with tuple hash (reported on the group)
+- bug with operators applied to dicts or sets
+- bugs in py_set.js
+- bug with dict.fromkeys()
+- bug with classmethods of native types
+- report correct line num for syntax errors in lambdas
+- bug in dict.setdefault : argument "default" is optional and defaults to None
+- in "with ctx_manager as obj", obj was not bound in namespace
+- bug with several ** arguments
+- bug with "continue" inside generators
+- bug in comparisons between integers and long integers
+- error in message printed by __BRYTHON__.imports()
+
+Issues
+- #356 : "struct" module is missing the "Struct" class
+- #542 : expansion of f(*my_args, a, b) inverses order of arguments + 
+  implement PEP 448 (at least partially)
+- #543 : incorrect behavior of sets: {''} | {0} gives {''} and discards 0
+- #545 : scoping oddity: "for k in range(k)" leads to skipping the loop
+- #547 : tuples behaving as mutable
+- #549 : operators **=, //= and so on don't work on float variables
+- #550 : "a & b" throws error on bool variables: & and | operators are absent
+- #551 : -1; (minus and semicolon) in the source line causes Brython to create
+  a tuple
+- #553 : Variable name shadowed in list comprehension scope crashes: 
+  [s for s in s]
+- #554 : default argument initializer called more than once: def g(arg=f())
+- #556 : math functions (i.e. sin, log, etc.) do not accept as input objects 
+  that implement __float__ method
+- #557 : remove child element issue
+- #558 : a set isn't properly cloned by "a = set(b)" statement
+
+Brython site
+============
+- remove notebook page style on gallery
+
+Github site
+===========
+
+
+Demos
+=====
+- rewrite the demos that used javascript.JSConstructor by the attribute "new"
+- in SVG demo, replace "remove" by "removeChild"
+- add new demo with the Javascript library bokeh (by Kiko Correoso)
+
+Standard distribution
+=====================
+- move function "load" from module javascript to module browser
+- deprecate javascript.JSConstructor and javascript.load
+- add javascript.this(), a function that returns the value of the JS keyword 
+  "this"
+
+Documentation
+=============
+- document the new features
+- translation in Spanish (by Kiko)
