@@ -1,5 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習40423114李希凡</title><link href="./" rel="alternate"></link><link href="./feeds/ppt.atom.xml" rel="self"></link><id>./</id><updated>2017-02-25T12:08:00+08:00</updated><entry><title>第一周 2/23</title><link href="./di-yi-zhou-223.html" rel="alternate"></link><published>2017-02-25T12:08:00+08:00</published><updated>2017-02-25T12:08:00+08:00</updated><author><name>14</name></author><id>tag:,2017-02-25:./di-yi-zhou-223.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習40423114李希凡</title><link href="./" rel="alternate"></link><link href="./feeds/ppt.atom.xml" rel="self"></link><id>./</id><updated>2017-04-13T12:08:00+08:00</updated><entry><title>第八周 4/13</title><link href="./di-ba-zhou-413.html" rel="alternate"></link><published>2017-04-13T12:08:00+08:00</published><updated>2017-04-13T12:08:00+08:00</updated><author><name>14</name></author><id>tag:,2017-04-13:./di-ba-zhou-413.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+&lt;h2&gt;上課筆記&lt;/h2&gt;
+&lt;p&gt;第一週&lt;/p&gt;
+&lt;p&gt;1.利用solvespace及onshape組裝四連桿機構&lt;/p&gt;
+&lt;p&gt;2.ipv4和ipv6設定&lt;/p&gt;
+&lt;p&gt;3.分組方式,如何更有效的決定&lt;/p&gt;
+&lt;p&gt;4.小組組織跟分工的重要性&lt;/p&gt;
+&lt;p&gt;5.要主動教導不會的同學&lt;/p&gt;
+&lt;p&gt;6.ipcofig設定&lt;/p&gt;
+&lt;p&gt;第二週&lt;/p&gt;
+&lt;p&gt;利用solvespace組立及v-rep應用&lt;/p&gt;
+&lt;p&gt;第三週&lt;/p&gt;
+&lt;p&gt;翻譯兩部英文影片&lt;/p&gt;
+&lt;p&gt;第四週&lt;/p&gt;
+&lt;p&gt;1.建立第七組的FOSSIL SCM連結&lt;/p&gt;
+&lt;p&gt;2.設定權限&lt;/p&gt;
+&lt;p&gt;3.上課點名&lt;/p&gt;
+&lt;p&gt;4.四連桿繪製&lt;/p&gt;
+&lt;p&gt;第五週&lt;/p&gt;
+&lt;p&gt;1.拍攝影片&lt;/p&gt;
+&lt;p&gt;2.更新要註解&lt;/p&gt;
+&lt;p&gt;3.FOSSIL SCM要更新&lt;/p&gt;
+&lt;p&gt;4.leo除錯&lt;/p&gt;
+&lt;p&gt;5.導入v-rep零件&lt;/p&gt;
+&lt;p&gt;第六週&lt;/p&gt;
+&lt;p&gt;1.ONSHAPE零件操作過程&lt;/p&gt;
+&lt;p&gt;2.更新跟除錯(小組很麻煩的更新需先up date pull後沒問題才可push)&lt;/p&gt;
+&lt;p&gt;3.用完頗有成就感&lt;/p&gt;
+&lt;p&gt;4.教導不會的組員&lt;/p&gt;
+&lt;p&gt;第七週&lt;/p&gt;
+&lt;p&gt;1.補齊前面少的零件&lt;/p&gt;
+&lt;p&gt;2.教導不會的組員&lt;/p&gt;
+&lt;p&gt;第八週&lt;/p&gt;
+&lt;p&gt;1.補齊前面少的零件&lt;/p&gt;
+&lt;p&gt;2.教導不會的組員&lt;/p&gt;
+&lt;h1&gt;期中題目練習繪製- 四連桿機構路徑&lt;/h1&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/wdm8ISQfSyQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;期中題目練習繪製- 四連桿四足-1&lt;/h1&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/hs8K6j6MjEQ" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h1&gt;期中題目練習繪製- 四連桿四足-2&lt;/h1&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/9kFcZSMCD_Y" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;期中題目練習繪製- 四連桿四足-3&lt;/h1&gt;
+&lt;p&gt;&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/BEbOuHEbN3w" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;h1&gt;期中題目練習繪製- 四連桿四足-4&lt;/h1&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/nKHve63Q9VM" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="PPT"></category></entry><entry><title>第一周 2/23</title><link href="./di-yi-zhou-223.html" rel="alternate"></link><published>2017-02-25T12:08:00+08:00</published><updated>2017-02-25T12:08:00+08:00</updated><author><name>14</name></author><id>tag:,2017-02-25:./di-yi-zhou-223.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h2&gt;上課筆記&lt;/h2&gt;
 &lt;p&gt;1.利用solvespace及onshape組裝四連桿機構
