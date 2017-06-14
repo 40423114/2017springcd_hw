@@ -538,11 +538,7 @@ def draw():
     cgo.render(gear3, {'x':cx+pr*2*0.5*2-pr/2, 'y':1.43*cy, 'scl':0.5, 'degs':147})
 
 set_interval(draw, 2)
-&lt;/script&gt;
-
-&lt;h2&gt;5.如何模擬 3D 正齒輪組囓合？&lt;/h2&gt;
-&lt;p&gt;&lt;iframe src="https://player.vimeo.com/video/218888605" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt; 
-&lt;p&gt;&lt;a href="https://vimeo.com/218888605"&gt;國立虎尾科技大學_協同產品設計實習_設計二甲_40423137_陳慶豪_W9_ONSHAPE GEARS&lt;/a&gt; from &lt;a href="https://vimeo.com/user45109608"&gt;40423137&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="HW"></category></entry><entry><title>協同產品設計實習 w10倉儲協同作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html" rel="alternate"></link><published>2017-04-27T12:00:00+08:00</published><updated>2017-04-27T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-04-27:./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html</id><summary type="html">&lt;h2&gt;加減乘除法運算&lt;/h2&gt;
+&lt;/script&gt;</summary><category term="HW"></category></entry><entry><title>協同產品設計實習 w10倉儲協同作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html" rel="alternate"></link><published>2017-04-27T12:00:00+08:00</published><updated>2017-04-27T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-04-27:./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html</id><summary type="html">&lt;h2&gt;加減乘除法運算&lt;/h2&gt;
 &lt;p&gt;測試影片&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-q_WUfGj4Iw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
