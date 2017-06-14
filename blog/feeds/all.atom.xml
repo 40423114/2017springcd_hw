@@ -104,7 +104,7 @@ for j in range(10):
 
 
 
-心得:頗有成就感</summary><category term="seat table"></category></entry><entry><title>協同產品設計實習 w10倉儲協同作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html" rel="alternate"></link><published>2017-04-27T12:00:00+08:00</published><updated>2017-04-27T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-04-27:./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html</id><summary type="html">&lt;h3&gt;加減乘除法運算&lt;/h3&gt;
+心得:頗有成就感</summary><category term="seat table"></category></entry><entry><title>協同產品設計實習 w10倉儲協同作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html" rel="alternate"></link><published>2017-04-27T12:00:00+08:00</published><updated>2017-04-27T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-04-27:./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html</id><summary type="html">&lt;h2&gt;加減乘除法運算&lt;/h2&gt;
 &lt;p&gt;測試影片&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-q_WUfGj4Iw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
@@ -176,10 +176,7 @@ sys.path.append("./W10")        //路徑
 import add                              //導入 add.py&lt;/p&gt;
 &lt;p&gt;sum = add.add (6,2)                //演算&lt;/p&gt;
 &lt;p&gt;print(sum)                              //結果
-&lt;/pre&gt;
--法運算測試影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/aViu9vAxVN4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;/pre&gt;&lt;/p&gt;
 &lt;h1&gt;網頁測試減法&lt;/h1&gt;
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
