@@ -24,9 +24,9 @@ import add                        //導入 add.py&lt;/p&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
-&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+&lt;script src="../data/brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
-&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;script src="../data/brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
 
 &lt;!-- 啟動 Brython --&gt;
 
@@ -77,9 +77,9 @@ import add                              //導入 add.py&lt;/p&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
-&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+&lt;script src="../data/brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
-&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;script src="../data/brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
 
 &lt;!-- 啟動 Brython --&gt;
 
@@ -130,9 +130,9 @@ import add                           //導入 add.py&lt;/p&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
-&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+&lt;script src="../data/brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
-&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;script src="../data/brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
 
 &lt;!-- 啟動 Brython --&gt;
 
@@ -183,9 +183,9 @@ import add                          //導入 add.py&lt;/p&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
-&lt;script src="../data/Brython-3.3.1/brython.js"&gt;&lt;/script&gt;
+&lt;script src="../data/brython-3.3.1/brython.js"&gt;&lt;/script&gt;
 
-&lt;script src="../data/Brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
+&lt;script src="../data/brython-3.3.1/brython_stdlib.js"&gt;&lt;/script&gt;
 
 &lt;!-- 啟動 Brython --&gt;
 
