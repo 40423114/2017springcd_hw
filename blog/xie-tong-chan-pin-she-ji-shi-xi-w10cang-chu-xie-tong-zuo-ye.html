@@ -170,13 +170,13 @@ init_mathjax();
 
         <meta name="author" content="40423114" />
         <meta name="keywords" content="HW" />
-        <meta name="description" content="加減乘除法運算" />
+        <meta name="description" content="加減乘除法運算 測試影片" />
 
         <meta property="og:site_name" content="協同產品設計實習40423114李希凡" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="協同產品設計實習 w10倉儲協同作業"/>
         <meta property="og:url" content="./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html"/>
-        <meta property="og:description" content="加減乘除法運算"/>
+        <meta property="og:description" content="加減乘除法運算 測試影片"/>
         <meta property="article:published_time" content="2017-04-27" />
             <meta property="article:section" content="HW" />
             <meta property="article:tag" content="HW" />
@@ -318,10 +318,13 @@ init_mathjax();
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>加減乘除法運算</p>
+                <h3>加減乘除法運算</h3>
+<p>測試影片</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-q_WUfGj4Iw" frameborder="0" allowfullscreen></iframe>
 
 
-<h2>1.加法</h2>
+
+<h1>1.加法</h1>
 <p>加法程式碼(add.py)
 <pre class="brush: python">
 def add (a,b):                     //def用於定義函式和類型的方法
@@ -329,15 +332,12 @@ def add (a,b):                     //def用於定義函式和類型的方法
 </pre>
 加法程式碼(print.py)
 <pre class="brush: python">
-import sys                         //插入sys檔案中所有函式
-sys.path.append("./w10")     //資料夾路徑
+import sys                         //插入sys檔案中函式
+sys.path.append("./w10")   //路徑
 import add                        //導入 add.py</p>
-<p>sum = add.add (1,2)          //乘法演算</p>
+<p>sum = add.add (1,2)          //演算</p>
 <p>print(sum)                        //結果
-</pre>
-加法運算測試影片</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qCmBzuyp-Tg" frameborder="0" allowfullscreen></iframe>
-
+</pre></p>
 <h1>網頁測試加法</h1>
 <!-- PELICAN_END_SUMMARY -->
 
@@ -377,19 +377,19 @@ doc["button1"].bind("click", button1)
 </script>
 
 <p><button id="button1">按下取 a b 值</button></p>
-<h2>2.-法運算</h2>
-<p>-法程式碼(add.py)
+<h1>2.減法法運算</h1>
+<p>減法程式碼(add.py)
 <pre class="brush: python">
-def add (a,b): //def用於定義函式和類型的方法
-    return a-b //將a-b值傳回主程式中
+def add (a,b):                           //def用於定義函式和類型的方法
+    return a-b                            //將a-b值傳回主程式中
 </pre>
 -法程式碼(print.py)
 <pre class="brush: python">
-import sys //插入sys檔案中所有函式
-sys.path.append("./m1") //資料夾路徑
-import add //導入 add.py</p>
-<p>sum = add.add (1,2) //乘法演算</p>
-<p>print(sum) //輸出結果
+import sys                               //插入sys檔案中函式
+sys.path.append("./W10")        //路徑
+import add                              //導入 add.py</p>
+<p>sum = add.add (6,2)                //演算</p>
+<p>print(sum)                              //結果
 </pre>
 -法運算測試影片</p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aViu9vAxVN4" frameborder="0" allowfullscreen></iframe>
@@ -433,23 +433,20 @@ doc["button2"].bind("click", button2)
 </script>
 
 <p><button id="button2">按下取 a b 值</button></p>
-<h2>3.*法運算</h2>
+<h1>3.乘法運算</h1>
 <p>乘法程式碼(add.py)
 <pre class="brush: python">
-def add (a,b): //def用於定義函式和類型的方法
-    return a* b //將a乘b值傳回主程式中
+def add (a,b):                        //def用於定義函式和類型的方法
+    return a* b                        //將a乘b值傳回主程式中
 </pre>
 乘法程式碼(print.py)
 <pre class="brush: python">
-import sys //插入sys檔案中所有函式
-sys.path.append("./m1") //資料夾路徑
-import add //導入 add.py</p>
-<p>sum = add.add (1,2) //乘法演算</p>
-<p>print(sum) //輸出結果
-</pre>
-乘法運算測試影片</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-q_WUfGj4Iw" frameborder="0" allowfullscreen></iframe>
-
+import sys                            //插入sys檔案中函式
+sys.path.append("./W10")     //路徑
+import add                           //導入 add.py</p>
+<p>sum = add.add (6,2)             //演算</p>
+<p>print(sum)                           //結果
+</pre></p>
 <h1>網頁測試乘法</h1>
 <!-- PELICAN_END_SUMMARY -->
 
@@ -489,23 +486,20 @@ doc["button3"].bind("click", button3)
 </script>
 
 <p><button id="button3">按下取 a b 值</button></p>
-<h2>4./法運算</h2>
-<p>/法程式碼(add.py)
+<h1>4.除法運算</h1>
+<p>除法程式碼(add.py)
 <pre class="brush: python">
-def add (a,b): //def用於定義函式和類型的方法
-    return a/b //將a/b值傳回主程式中
+def add (a,b):                       //def用於定義函式和類型的方法
+    return a/b                        //將a/b值傳回主程式中
 </pre>
-/法程式碼(print.py)
+除法程式碼(print.py)
 <pre class="brush: python">
-import sys//插入sys檔案中所有函式
-sys.path.append("./m1") //資料夾路徑
-import add//導入 add.py</p>
-<p>sum = add.add (1,2) // /法演算</p>
-<p>print(sum) //輸出結果
-</pre>
-/法運算測試影片</p>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vp4LImlT6fw" frameborder="0" allowfullscreen></iframe>
-
+import sys                           //插入sys檔案中所有函式
+sys.path.append(".W10")     //資料夾路徑
+import add                          //導入 add.py</p>
+<p>xx = add.add (6,2)               //演算</p>
+<p>print(xx)                             //結果
+</pre></p>
 <h1>網頁測試除法</h1>
 <!-- PELICAN_END_SUMMARY -->
 

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習40423114李希凡</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T12:00:00+08:00</updated><entry><title>協同產品設計實習 w10倉儲協同作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html" rel="alternate"></link><published>2017-04-27T12:00:00+08:00</published><updated>2017-04-27T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-04-27:./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html</id><summary type="html">&lt;p&gt;加減乘除法運算&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習40423114李希凡</title><link href="./" rel="alternate"></link><link href="./feeds/hw.atom.xml" rel="self"></link><id>./</id><updated>2017-04-27T12:00:00+08:00</updated><entry><title>協同產品設計實習 w10倉儲協同作業</title><link href="./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html" rel="alternate"></link><published>2017-04-27T12:00:00+08:00</published><updated>2017-04-27T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-04-27:./xie-tong-chan-pin-she-ji-shi-xi-w10cang-chu-xie-tong-zuo-ye.html</id><summary type="html">&lt;h3&gt;加減乘除法運算&lt;/h3&gt;
+&lt;p&gt;測試影片&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-q_WUfGj4Iw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 
-&lt;h2&gt;1.加法&lt;/h2&gt;
+
+&lt;h1&gt;1.加法&lt;/h1&gt;
 &lt;p&gt;加法程式碼(add.py)
 &lt;pre class="brush: python"&gt;
 def add (a,b):                     //def用於定義函式和類型的方法
@@ -10,15 +13,12 @@ def add (a,b):                     //def用於定義函式和類型的方法
 &lt;/pre&gt;
 加法程式碼(print.py)
 &lt;pre class="brush: python"&gt;
-import sys                         //插入sys檔案中所有函式
-sys.path.append("./w10")     //資料夾路徑
+import sys                         //插入sys檔案中函式
+sys.path.append("./w10")   //路徑
 import add                        //導入 add.py&lt;/p&gt;
-&lt;p&gt;sum = add.add (1,2)          //乘法演算&lt;/p&gt;
+&lt;p&gt;sum = add.add (1,2)          //演算&lt;/p&gt;
 &lt;p&gt;print(sum)                        //結果
-&lt;/pre&gt;
-加法運算測試影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/qCmBzuyp-Tg" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
+&lt;/pre&gt;&lt;/p&gt;
 &lt;h1&gt;網頁測試加法&lt;/h1&gt;
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
@@ -58,19 +58,19 @@ doc["button1"].bind("click", button1)
 &lt;/script&gt;
 
 &lt;p&gt;&lt;button id="button1"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
-&lt;h2&gt;2.-法運算&lt;/h2&gt;
-&lt;p&gt;-法程式碼(add.py)
+&lt;h1&gt;2.減法法運算&lt;/h1&gt;
+&lt;p&gt;減法程式碼(add.py)
 &lt;pre class="brush: python"&gt;
-def add (a,b): //def用於定義函式和類型的方法
-    return a-b //將a-b值傳回主程式中
+def add (a,b):                           //def用於定義函式和類型的方法
+    return a-b                            //將a-b值傳回主程式中
 &lt;/pre&gt;
 -法程式碼(print.py)
 &lt;pre class="brush: python"&gt;
-import sys //插入sys檔案中所有函式
-sys.path.append("./m1") //資料夾路徑
-import add //導入 add.py&lt;/p&gt;
-&lt;p&gt;sum = add.add (1,2) //乘法演算&lt;/p&gt;
-&lt;p&gt;print(sum) //輸出結果
+import sys                               //插入sys檔案中函式
+sys.path.append("./W10")        //路徑
+import add                              //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (6,2)                //演算&lt;/p&gt;
+&lt;p&gt;print(sum)                              //結果
 &lt;/pre&gt;
 -法運算測試影片&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/aViu9vAxVN4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
@@ -114,23 +114,20 @@ doc["button2"].bind("click", button2)
 &lt;/script&gt;
 
 &lt;p&gt;&lt;button id="button2"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
-&lt;h2&gt;3.*法運算&lt;/h2&gt;
+&lt;h1&gt;3.乘法運算&lt;/h1&gt;
 &lt;p&gt;乘法程式碼(add.py)
 &lt;pre class="brush: python"&gt;
-def add (a,b): //def用於定義函式和類型的方法
-    return a* b //將a乘b值傳回主程式中
+def add (a,b):                        //def用於定義函式和類型的方法
+    return a* b                        //將a乘b值傳回主程式中
 &lt;/pre&gt;
 乘法程式碼(print.py)
 &lt;pre class="brush: python"&gt;
-import sys //插入sys檔案中所有函式
-sys.path.append("./m1") //資料夾路徑
-import add //導入 add.py&lt;/p&gt;
-&lt;p&gt;sum = add.add (1,2) //乘法演算&lt;/p&gt;
-&lt;p&gt;print(sum) //輸出結果
-&lt;/pre&gt;
-乘法運算測試影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-q_WUfGj4Iw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
+import sys                            //插入sys檔案中函式
+sys.path.append("./W10")     //路徑
+import add                           //導入 add.py&lt;/p&gt;
+&lt;p&gt;sum = add.add (6,2)             //演算&lt;/p&gt;
+&lt;p&gt;print(sum)                           //結果
+&lt;/pre&gt;&lt;/p&gt;
 &lt;h1&gt;網頁測試乘法&lt;/h1&gt;
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
@@ -170,23 +167,20 @@ doc["button3"].bind("click", button3)
 &lt;/script&gt;
 
 &lt;p&gt;&lt;button id="button3"&gt;按下取 a b 值&lt;/button&gt;&lt;/p&gt;
-&lt;h2&gt;4./法運算&lt;/h2&gt;
-&lt;p&gt;/法程式碼(add.py)
+&lt;h1&gt;4.除法運算&lt;/h1&gt;
+&lt;p&gt;除法程式碼(add.py)
 &lt;pre class="brush: python"&gt;
-def add (a,b): //def用於定義函式和類型的方法
-    return a/b //將a/b值傳回主程式中
+def add (a,b):                       //def用於定義函式和類型的方法
+    return a/b                        //將a/b值傳回主程式中
 &lt;/pre&gt;
-/法程式碼(print.py)
+除法程式碼(print.py)
 &lt;pre class="brush: python"&gt;
-import sys//插入sys檔案中所有函式
-sys.path.append("./m1") //資料夾路徑
-import add//導入 add.py&lt;/p&gt;
-&lt;p&gt;sum = add.add (1,2) // /法演算&lt;/p&gt;
-&lt;p&gt;print(sum) //輸出結果
-&lt;/pre&gt;
-/法運算測試影片&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Vp4LImlT6fw" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
-
+import sys                           //插入sys檔案中所有函式
+sys.path.append(".W10")     //資料夾路徑
+import add                          //導入 add.py&lt;/p&gt;
+&lt;p&gt;xx = add.add (6,2)               //演算&lt;/p&gt;
+&lt;p&gt;print(xx)                             //結果
+&lt;/pre&gt;&lt;/p&gt;
 &lt;h1&gt;網頁測試除法&lt;/h1&gt;
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
