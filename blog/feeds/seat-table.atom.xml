@@ -19,7 +19,7 @@ brython({debug:1, pythonpath:['./../data/py']});
 
 &lt;!-- 以下實際利用  Brython 畫四連桿 trace point 路徑--&gt;
 
-&lt;canvas id="fourbar" width="800" height="600"&gt;&lt;/canvas&gt;
+&lt;!--canvas id="fourbar" width="800" height="600"&gt;&lt;/canvas&gt;
 
 &lt;div id="container" width="800" height="600"&gt;&lt;/div&gt;
 
@@ -99,10 +99,12 @@ for j in range(10):
     ctx.stroke()
     ctx.closePath()
 &lt;/script&gt;
-
 &lt;pre&gt;            &lt;/pre&gt;
 
-&lt;p&gt;心得:頗有成就感&lt;/p&gt;</summary><category term="seat table"></category></entry><entry><title>第六周 3/30</title><link href="./di-liu-zhou-330.html" rel="alternate"></link><published>2017-03-30T12:08:00+08:00</published><updated>2017-03-30T12:08:00+08:00</updated><author><name>14</name></author><id>tag:,2017-03-30:./di-liu-zhou-330.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
+
+
+
+心得:頗有成就感</summary><category term="seat table"></category></entry><entry><title>第六周 3/30</title><link href="./di-liu-zhou-330.html" rel="alternate"></link><published>2017-03-30T12:08:00+08:00</published><updated>2017-03-30T12:08:00+08:00</updated><author><name>14</name></author><id>tag:,2017-03-30:./di-liu-zhou-330.html</id><summary type="html">&lt;!-- PELICAN_END_SUMMARY --&gt;
 
 &lt;h1&gt;第六周ONSHAPE零件操作&lt;/h1&gt;
 &lt;p&gt;繪製-1
