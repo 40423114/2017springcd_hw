@@ -4,11 +4,11 @@
 
 &lt;p&gt;1.
 solvespace 檔案推送&lt;/p&gt;
-&lt;iframe src="./../data/w17/40423114.html"width="800"height="600"/&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;iframe src="./../data/w17/40423114.html"width="800"height="600"/&gt;&lt;/iframe&gt;&lt;/p&gt;
 
 &lt;p&gt;2.
 solvespace 2D 繪圖 程式碼&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ZoTcC_v-ejY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/78tI8x0i8-E" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
@@ -75,11 +75,9 @@ class Spur(object):
 
 # self.create_line(起點X, 起點Y, 終點X, 終點Y)
         self.create_line2(200, 200, 100, 200)
-        self.create_line3(100, 200, 164.3, 300)
-        self.create_line2(164.3, 300, 264.3, 300)
-        self.create_line3(264.3, 300, 200,200)
-
-
+        self.create_line3(100, 200, 150, 300)
+        self.create_line2(150, 300, 250, 300)
+        self.create_line3(250, 300, 200, 200)
 
 
         if rd&gt;rb:
@@ -144,10 +142,17 @@ Spur(ctx).Gear(x, y, r, n, pa, "blue")
 子模組建立與運用&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Jpw_npHxvRY" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;4.Solvespace 近端零組件繪圖&lt;/p&gt;
-&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/leaxPwJajws" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h1&gt;4.Solvespace 近端零組件繪圖&lt;/h1&gt;
+&lt;p&gt;連接桿繪製&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/LeC2ejnAbHA" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;iframe src="./../data/w17/tow lag.html"width="600"height="600"&gt;&lt;/iframe&gt;
+&lt;p&gt;腳繪製&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/CorabnGwtA4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;組裝&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/DsTJbf3IGMs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;iframe src="./../data/w17/ex.html"width="800"height="600"/&gt;&lt;/iframe&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Solvespace 零件轉入 V-rep&lt;/li&gt;
