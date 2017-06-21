@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>第十周 - 協同產品設計實習40423114李希凡</title>
+    <title>Week17 20170614 - 協同產品設計實習40423114李希凡</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,21 +166,21 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./di-shi-zhou.html">
+<link rel="canonical" href="./Week 17.html">
 
-        <meta name="author" content="40423114" />
-        <meta name="keywords" content="作業" />
-        <meta name="description" content="加減乘除法運算 加減乘除法運算" />
+        <meta name="author" content="40423223" />
+        <meta name="keywords" content="Brython" />
+        <meta name="description" content="期末任務" />
 
         <meta property="og:site_name" content="協同產品設計實習40423114李希凡" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="第十周"/>
-        <meta property="og:url" content="./di-shi-zhou.html"/>
-        <meta property="og:description" content="加減乘除法運算 加減乘除法運算"/>
-        <meta property="article:published_time" content="2017-04-27" />
-            <meta property="article:section" content="作業" />
-            <meta property="article:tag" content="作業" />
-            <meta property="article:author" content="40423114" />
+        <meta property="og:title" content="Week17 20170614"/>
+        <meta property="og:url" content="./Week 17.html"/>
+        <meta property="og:description" content="期末任務"/>
+        <meta property="article:published_time" content="2017-06-14" />
+            <meta property="article:section" content="Course" />
+            <meta property="article:tag" content="Brython" />
+            <meta property="article:author" content="40423223" />
 
 
     <!-- Bootstrap -->
@@ -261,7 +261,7 @@ init_mathjax();
                          <li><a href="./pages/about/">
                              About
                           </a></li>
-                        <li >
+                        <li class="active">
                             <a href="./category/course.html">Course</a>
                         </li>
                         <li >
@@ -270,7 +270,7 @@ init_mathjax();
                         <li >
                             <a href="./category/seat-table.html">Seat table</a>
                         </li>
-                        <li class="active">
+                        <li >
                             <a href="./category/zuo-ye.html">作業</a>
                         </li>
             </ul>
@@ -296,10 +296,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./di-shi-zhou.html"
+                    <a href="./Week 17.html"
                        rel="bookmark"
-                       title="Permalink to 第十周">
-                        第十周
+                       title="Permalink to Week17 20170614">
+                        Week17 20170614
                     </a>
                 </h1>
             </header>
@@ -309,47 +309,33 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2017-04-27T12:00:00+08:00"> Thu 27 April 2017</time>
+        <i class="fa fa-calendar"></i><time datetime="2017-06-14T11:00:00+08:00"> Wed 14 June 2017</time>
     </span>
             <span class="label label-default">By</span>
-            <a href="./author/40423114.html"><i class="fa fa-user"></i> 40423114</a>
+            <a href="./author/40423223.html"><i class="fa fa-user"></i> 40423223</a>
 
 
 
 <span class="label label-default">Tags</span>
-	<a href="./tag/zuo-ye.html">作業</a>
+	<a href="./tag/brython.html">Brython</a>
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p><b><font color="red">加減乘除法運算</font></b></p>
-<h2>加減乘除法運算</h2>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/siRwo4gczv8" frameborder="0" allowfullscreen></iframe>
+                <p><b><font color="red">期末任務</font></b></p>
 
 
+<p>1.
+solvespace 檔案推送</p>
+<iframe src="./../data/w17/40423114.html"width="800"height="600"/></iframe>
 
-<h1>1.加法</h1>
-<p>加法程式碼(add.py)
-<pre class="brush: python">
-def add (a,b):                     //def用於定義函式和類型的方法
-    return a+b                     //將a+b值傳回主程式中
-</pre>
-加法程式碼(print.py)
-<pre class="brush: python">
-import sys                         //插入sys檔案中函式
-sys.path.append("./w10")   //路徑
-import add                        //導入 add.py</p>
-<p>sum = add.add (1,2)          //演算</p>
-<p>print(sum)                        //結果
-</pre></p>
-<h1>網頁測試加法</h1>
-<!-- PELICAN_END_SUMMARY -->
+<p>2.
+solvespace 2D 繪圖 程式碼</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZoTcC_v-ejY" frameborder="0" allowfullscreen></iframe>
 
 <!-- 導入 Brython 標準程式庫 -->
 
-<script src="../data/brython-3.3.1/brython.js"></script>
-
-<script src="../data/brython-3.3.1/brython_stdlib.js"></script>
-
+<p><script src="../data/brython-3.3.1/brython.js"></script>
+<script src="../data/brython-3.3.1/brython_stdlib.js"></script></p>
 <!-- 啟動 Brython -->
 
 <script>
@@ -359,186 +345,141 @@ brython({debug:1, pythonpath:['./../data/py']});
 }
 </script>
 
-<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
+<!-- 以下實際利用  Brython 繪圖-->
 
-<!--<canvas id="w10" width="800" height="600"></canvas>-->
+<canvas id="onegear2" width="800" height="600"></canvas>
 
-<div id="container" width="600" height="400"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-container = doc['container']
-degree = math.pi/180
-def button1(event):
-    a = input("give me a")
-    b = input("give me b")
-    container <= str(float(a)+float(b))
-doc["button1"].bind("click", button1)
-
-</script>
-
-<p><button id="button1">按下取 a b 值</button></p>
-<h1>2.減法法運算</h1>
-<p>減法程式碼(add.py)
-<pre class="brush: python">
-def add (a,b):                           //def用於定義函式和類型的方法
-    return a-b                            //將a-b值傳回主程式中
-</pre>
--法程式碼(print.py)
-<pre class="brush: python">
-import sys                               //插入sys檔案中函式
-sys.path.append("./W10")        //路徑
-import add                              //導入 add.py</p>
-<p>sum = add.add (6,2)                //演算</p>
-<p>print(sum)                              //結果
-</pre></p>
-<h1>網頁測試減法</h1>
-<!-- PELICAN_END_SUMMARY -->
-
-<!-- 導入 Brython 標準程式庫 -->
-
-<script src="../data/brython-3.3.1/brython.js"></script>
-
-<script src="../data/brython-3.3.1/brython_stdlib.js"></script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
-
-<!--<canvas id="w10" width="800" height="600"></canvas>-->
-
-<div id="container1" width="600" height="400"></div>
+<div id="onegear_div" width="800" height="20"></div>
 
 <script type="text/python3">
 from browser import document as doc
-from browser import html
 import math
-container = doc['container1']
-degree = math.pi/180
-def button2(event):
-    a = input("give me a")
-    b = input("give me b")
-    container <= str(float(a)-float(b))
-doc["button2"].bind("click", button2)
+# deg 為角度轉為徑度的轉換因子
+deg = math.pi/180.
+# 定義 Spur 類別
+class Spur(object):
+    def __init__(self, ctx):
+        self.ctx = ctx
 
+# 設定畫線參數 
+    def create_line(self, x1, y1, x2, y2, width=3, fill="#54fff6"):
+        self.ctx.beginPath()
+        self.ctx.lineWidth = width
+        self.ctx.moveTo(x1, y1)
+        self.ctx.lineTo(x2, y2)
+        self.ctx.strokeStyle = fill
+        self.ctx.stroke()
+    def create_line2(self, x1, y1, x2, y2, width=3, fill="#54ff5f"):
+        self.ctx.beginPath()
+        self.ctx.lineWidth = width
+        self.ctx.moveTo(x1, y1)
+        self.ctx.lineTo(x2, y2)
+        self.ctx.strokeStyle = fill
+        self.ctx.stroke()
+    def create_line3(self, x1, y1, x2, y2, width=3, fill="#f354ff"):
+        self.ctx.beginPath()
+        self.ctx.lineWidth = width
+        self.ctx.moveTo(x1, y1)
+        self.ctx.lineTo(x2, y2)
+        self.ctx.strokeStyle = fill
+        self.ctx.stroke()
+
+
+    def Gear(self, midx, midy, rp, n=20, pa=20, color="black"):
+
+        rp = 250
+        imax = 15
+        m=2*rp/n
+        a=m
+        d=1.25*m
+        ra=rp+a
+
+
+# self.create_line(起點X, 起點Y, 終點X, 終點Y)
+        self.create_line2(200, 200, 100, 200)
+        self.create_line3(100, 200, 164.3, 300)
+        self.create_line2(164.3, 300, 264.3, 300)
+        self.create_line3(264.3, 300, 200,200)
+
+
+
+
+        if rd>rb:
+            dr = (ra-rd)/imax
+        else:
+            dr=(ra-rb)/imax
+        sigma=math.pi/(2*n)+math.tan(pa*deg)-pa*deg
+        for j in range(-9, 10, +1):
+            ang=-2.*j*math.pi/n+sigma
+            ang2=2.*j*math.pi/n+sigma
+            lxd=midx+rd*math.sin(ang2-2.*math.pi/n)
+            lyd=midy-rd*math.cos(ang2-2.*math.pi/n)
+            for i in range(imax+1):
+                if rd>rb:
+                    r=rd+i*dr
+                else:
+                    r=rb+i*dr
+                theta=math.sqrt((r*r)/(rb*rb)-1.)
+                alpha=theta-math.atan(theta)
+                xpt=r*math.sin(alpha-ang)
+                ypt=r*math.cos(alpha-ang)
+                xd=rd*math.sin(-ang)
+                yd=rd*math.cos(-ang)
+                if(i==0):
+                    last_x = midx+xd
+                    last_y = midy-yd
+            self.create_line((lxd),(lyd),(midx+xd),(midy-yd),fill=color)
+            for i in range(imax+1):
+                if rd>rb:
+                    r=rd+i*dr
+                else:
+                    r=rb+i*dr
+                theta=math.sqrt((r*r)/(rb*rb)-1.)
+                alpha=theta-math.atan(theta)
+                xpt=r*math.sin(ang2-alpha)
+                ypt=r*math.cos(ang2-alpha)
+                xd=rd*math.sin(ang2)
+                yd=rd*math.cos(ang2)
+                if(i==0):
+                    last_x = midx+xd
+                    last_y = midy-yd
+                self.create_line((midx+xpt),(midy-ypt),(last_x),(last_y),fill=color)   
+                if(i==imax):
+                    rfx=midx+xpt
+                    rfy=midy-ypt
+                last_x = midx+xpt
+                last_y = midy-ypt
+            self.create_line(lfx,lfy,rfx,rfy,fill=color)
+canvas = doc['onegear2']
+ctx = canvas.getContext("2d")
+x = (canvas.width)/2
+y = (canvas.height)/2
+r = 0.8*(canvas.height/2)
+# 齒數
+n = 36
+# 壓力角
+pa = 20
+Spur(ctx).Gear(x, y, r, n, pa, "blue")
 </script>
 
-<p><button id="button2">按下取 a b 值</button></p>
-<h1>3.乘法運算</h1>
-<p>乘法程式碼(add.py)
-<pre class="brush: python">
-def add (a,b):                        //def用於定義函式和類型的方法
-    return a* b                        //將a乘b值傳回主程式中
-</pre>
-乘法程式碼(print.py)
-<pre class="brush: python">
-import sys                            //插入sys檔案中函式
-sys.path.append("./W10")     //路徑
-import add                           //導入 add.py</p>
-<p>sum = add.add (6,2)             //演算</p>
-<p>print(sum)                           //結果
-</pre></p>
-<h1>網頁測試乘法</h1>
-<!-- PELICAN_END_SUMMARY -->
+<p>3.
+子模組建立與運用</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jpw_npHxvRY" frameborder="0" allowfullscreen></iframe>
 
-<!-- 導入 Brython 標準程式庫 -->
+<p>4.Solvespace 近端零組件繪圖</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/leaxPwJajws" frameborder="0" allowfullscreen></iframe>
 
-<script src="../data/brython-3.3.1/brython.js"></script>
+<iframe src="./../data/w17/tow lag.html"width="600"height="600"></iframe>
 
-<script src="../data/brython-3.3.1/brython_stdlib.js"></script>
+<ol>
+<li>Solvespace 零件轉入 V-rep</li>
+</ol>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kVrZna1zOi8" frameborder="0" allowfullscreen></iframe>
 
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
-
-<!--<canvas id="w10" width="800" height="600"></canvas>-->
-
-<div id="container3" width="600" height="400"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-container = doc['container3']
-degree = math.pi/180
-def button3(event):
-    a = input("give me a")
-    b = input("give me b")
-    container <= str(float(a)*float(b))
-doc["button3"].bind("click", button3)
-
-</script>
-
-<p><button id="button3">按下取 a b 值</button></p>
-<h1>4.除法運算</h1>
-<p>除法程式碼(add.py)
-<pre class="brush: python">
-def add (a,b):                       //def用於定義函式和類型的方法
-    return a/b                        //將a/b值傳回主程式中
-</pre>
-除法程式碼(print.py)
-<pre class="brush: python">
-import sys                           //插入sys檔案中所有函式
-sys.path.append(".W10")     //資料夾路徑
-import add                          //導入 add.py</p>
-<p>xx = add.add (6,2)               //演算</p>
-<p>print(xx)                             //結果
-</pre></p>
-<h1>網頁測試除法</h1>
-<!-- PELICAN_END_SUMMARY -->
-
-<!-- 導入 Brython 標準程式庫 -->
-
-<script src="../data/brython-3.3.1/brython.js"></script>
-
-<script src="../data/brython-3.3.1/brython_stdlib.js"></script>
-
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-// 設定 data/py 為共用程式路徑
-brython({debug:1, pythonpath:['./../data/py']});
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫四連桿 trace point 路徑-->
-
-<!--<canvas id="w10" width="800" height="600"></canvas>-->
-
-<div id="container4" width="600" height="400"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-container = doc['container4']
-degree = math.pi/180
-def button4(event):
-    a = input("give me a")
-    b = input("give me b")
-    container <= str(float(a)/float(b))
-doc["button4"].bind("click", button4)
-
-</script>
-
-<p><button id="button4">按下取 a b 值</button></p>
+<p>6.行走機構模擬與實作過程負責任務</p>
+<p>正在整理</p>
+<p>7.上傳 Fossil SCM 倉儲</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/21z89AD8ugo" frameborder="0" allowfullscreen></iframe>
             </div>
             <!-- /.entry-content -->
         </article>
