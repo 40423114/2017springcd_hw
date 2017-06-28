@@ -157,7 +157,17 @@ Spur(ctx).Gear(x, y, r, n, pa, "blue")
 &lt;ol&gt;
 &lt;li&gt;Solvespace 零件轉入 V-rep&lt;/li&gt;
 &lt;/ol&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6g_kFyPd14I" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="../data/w15/40423114.stl"&gt;solvespace存檔
+&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;
+
 &lt;p&gt;6.行走機構模擬與實作過程負責任務&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6g_kFyPd14I" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="../data/w15/w15-V-rep.ttt"&gt;v-rep存檔
+&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;
+
 &lt;p&gt;正在整理&lt;/p&gt;
 &lt;p&gt;7.上傳 Fossil SCM 倉儲&lt;/p&gt;</summary><category term="作業"></category></entry><entry><title>第15周</title><link href="./di-15zhou.html" rel="alternate"></link><published>2017-06-01T12:00:00+08:00</published><updated>2017-06-01T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-06-01:./di-15zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;三個任務&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
@@ -872,7 +882,14 @@ ctx.fillStyle = "#0000FF"
 ctx.font = "20px ScriptS"
 ctx.fillText("40443154 ",x_g9-20, y_g9)
 ctx.stroke()
-&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>第十三周</title><link href="./di-shi-san-zhou.html" rel="alternate"></link><published>2017-05-18T12:00:00+08:00</published><updated>2017-05-18T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-05-18:./di-shi-san-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;齒輪組嚙合組裝&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/2228ed4c50eaa6aebc808844/w/2faf389a2c761a3a21cd664e/e/1e3eaa52b7d53fcde18c0359"&gt;Onshape十三週齒輪&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Onshape繪製&lt;/h2&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XC41bxJdmrE" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;組裝轉動&lt;/h2&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/pHKnOpStlN4" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="作業"></category></entry><entry><title>第十三周</title><link href="./di-shi-san-zhou.html" rel="alternate"></link><published>2017-05-18T12:00:00+08:00</published><updated>2017-05-18T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-05-18:./di-shi-san-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;齒輪組嚙合組裝&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;h2&gt;繪製2D正齒輪&lt;/h2&gt;
 &lt;p&gt;條件:n = 17 , 13 , 11 , 14 齒輪組嚙合&lt;/p&gt;
 
@@ -1051,7 +1068,14 @@ gear14 = Spur(ctx).Gear(x14, y14, r14, n14, pa, "blue")
 
 div = doc["onegear_div"]
 
-&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>第十二周</title><link href="./di-shi-er-zhou.html" rel="alternate"></link><published>2017-05-11T12:00:00+08:00</published><updated>2017-05-11T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-05-11:./di-shi-er-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;更多的齒輪OuO&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/ae3822bed55e12ea0d7052b2/w/4dd737ac3f92bca9e0b41f19/e/e4d26ab094a5ac83d5f3d8a1"&gt;Onshape十三週齒輪&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;齒輪繪製&lt;/h2&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/sYuGs0qjHJ8" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;組合轉動&lt;/h2&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/yWJ-gDUv65g" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="作業"></category></entry><entry><title>第十二周</title><link href="./di-shi-er-zhou.html" rel="alternate"></link><published>2017-05-11T12:00:00+08:00</published><updated>2017-05-11T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-05-11:./di-shi-er-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;更多的齒輪OuO&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 
 
 &lt;h2&gt;何謂漸開線?&lt;/h2&gt;
@@ -1590,7 +1614,17 @@ def draw():
     cgo.render(gear3, {'x':cx+pr*2*0.5*2-pr/2, 'y':1.43*cy, 'scl':0.5, 'degs':147})
 
 set_interval(draw, 2)
-&lt;/script&gt;</summary><category term="作業"></category></entry><entry><title>第十一周</title><link href="./di-shi-yi-zhou.html" rel="alternate"></link><published>2017-05-04T12:00:00+08:00</published><updated>2017-05-04T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-05-04:./di-shi-yi-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;動態模擬齒輪&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/9d6f7bce7ac3fb0c77627a58/w/931b3637789950cc3eafee7b/e/c8ea2203b84179ab2d55951e"&gt;Onshape十二週齒輪&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="../data/w15/404.stl"&gt;onshape轉檔
+&lt;/a&gt; (請以滑鼠右鍵存檔)&lt;/p&gt;
+
+&lt;h2&gt;齒輪組和轉動&lt;/h2&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/-wa0D0R1PHk" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;h2&gt;V-REP齒輪測試&lt;/h2&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/5ADU_kN4tIk" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;</summary><category term="作業"></category></entry><entry><title>第十一周</title><link href="./di-shi-yi-zhou.html" rel="alternate"></link><published>2017-05-04T12:00:00+08:00</published><updated>2017-05-04T12:00:00+08:00</updated><author><name>40423114</name></author><id>tag:,2017-05-04:./di-shi-yi-zhou.html</id><summary type="html">&lt;p&gt;&lt;b&gt;&lt;font color="red"&gt;動態模擬齒輪&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;從單一 2D 正齒輪繪圖到齒輪組嚙合&lt;/p&gt;
 
 
